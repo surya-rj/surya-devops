@@ -9,4 +9,7 @@ def index(request):
 def index2(request):
     t=loader.get_template("index.html")
     return HttpResponse(t.render())
+def index3(request):
+    t=loader.get_template("index.html")
+    return HttpResponse(t.render())
 
