@@ -6,3 +6,4 @@ from django.template import loader
 def index(request):
     t=loader.get_template("index.html")
     return HttpResponse(t.render())
+
